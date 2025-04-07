@@ -1,5 +1,7 @@
 .hero-section {
   padding: 32px 20px 96px;
+  backdrop-filter: blur(60px);
+  background: rgba(255, 255, 255, 0.2);
   position: relative;
 }
 .hero-title {
@@ -45,22 +47,27 @@
 
 @media screen and (min-width: 1440px) {
   .hero-section {
-    padding: 55px 0px 133px;
+    padding: 55px 77px 133px;
+  }
+  .hero-container {
+    width: 1224px;
   }
 
   .hero-text-img {
     width: 605px;
     height: 257px;
+    margin: 0 326px;
   }
   .hero-text {
     font-size: 32px;
     width: 635px;
-    margin: 35px auto;
+    margin: 35px 324px;
   }
   .btn-google {
     width: 270px;
     height: 60px;
     padding: 8px 64px;
+    margin: 0 507px;
   }
   .picture-container {
     display: flex;
@@ -82,6 +89,8 @@
 /* Game Description */
 .game-description-section {
   padding: 40px 20px;
+  backdrop-filter: blur(60px);
+  background: rgba(255, 255, 255, 0.2);
 }
 .description-text {
   font-family: 'Lato', sans-serif;
@@ -103,6 +112,8 @@
 /* Key Features */
 .features-section {
   padding: 40px 20px;
+  backdrop-filter: blur(60px);
+  background: rgba(255, 255, 255, 0.2);
 }
 .key-list {
   display: flex;
@@ -191,9 +202,12 @@
   }
   .key-list {
     gap: 60px;
-    margin-top: 30px;
+    margin-top: 30px auto 0;
+    width: 1224px;
   }
-
+  .features-container {
+    max-width: 1224px;
+  }
   .key-img {
     width: 150px;
     height: 150px;
@@ -236,6 +250,8 @@
 /* User Reviews */
 .reviews-section {
   padding: 40px 20px;
+  backdrop-filter: blur(60px);
+  background: rgba(255, 255, 255, 0.2);
 }
 .rewiews-list {
   display: flex;
@@ -278,6 +294,9 @@
   .reviews-section {
     padding: 60px 108px;
   }
+  .reviews {
+    width: 1224px;
+  }
   .rewiews-list {
     display: flex;
     flex-direction: row;
@@ -299,6 +318,8 @@
 /* How to Play */
 .play-section {
   padding: 40px 20px;
+  backdrop-filter: blur(60px);
+  background: rgba(255, 255, 255, 0.2);
 }
 .play-list {
   display: flex;
@@ -335,6 +356,9 @@
   .play-section {
     padding: 60px 322px;
   }
+  .play-container {
+    width: 794px;
+  }
   .play-list {
     gap: 24px;
   }
@@ -352,5 +376,151 @@
   }
   .play-span {
     font-weight: 700;
+  }
+}
+/* Gallery */
+.gallery-section {
+  padding: 40px 0px 40px 20px;
+  backdrop-filter: blur(60px);
+  background: rgba(255, 255, 255, 0.2);
+}
+.desk-img-list {
+  display: none;
+}
+.mob-img-list {
+  display: flex;
+  gap: 24px;
+}
+.mob-img-items {
+  border-radius: 24px;
+}
+@media screen and (min-width: 1440px) {
+  .gallery-section {
+    padding: 60px 0px 60px 108px;
+  }
+  .subtitle-gallery {
+    margin-right: 200px;
+  }
+  .mob-img-list {
+    display: none;
+  }
+  .desk-img-list {
+    display: flex;
+    gap: 24px;
+  }
+}
+/* FAQ */
+.faq-section {
+  backdrop-filter: blur(60px);
+  background: rgba(255, 255, 255, 0.2);
+  padding: 40px 20px 95px;
+}
+.faq-acc {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+.faq-acc-el {
+  position: relative;
+  transition: margin-bottom 0.3s ease;
+}
+
+.faq-acc-el-trigger {
+  border-radius: 22px;
+  padding: 16px;
+  width: 336px;
+  height: 72px;
+  backdrop-filter: blur(21.299999237060547px);
+  background: rgba(9, 9, 11, 0.53);
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+}
+
+.faq-acc-arr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 28px;
+  background: #957fff;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+}
+
+.faq-acc-el.open .faq-acc-arr {
+  transform: rotate(180deg);
+}
+
+.faq-acc-arr.is-hidden {
+  display: none;
+}
+
+.faq-acc-el-descr-frame {
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  backdrop-filter: blur(21.299999237060547px);
+  background: rgba(9, 9, 11, 0.53);
+  border-radius: 22px;
+
+  opacity: 0;
+  overflow: hidden;
+}
+
+.faq-acc-el.js-enabled .faq-acc-el-descr-frame {
+  visibility: hidden;
+}
+.faq-acc-el.is-active .faq-acc-el-trigger {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.faq-acc-el.is-active .faq-acc-el-descr-frame {
+  visibility: visible;
+  padding: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  background: rgba(9, 9, 11, 0.53);
+  backdrop-filter: blur(21.299999237060547px);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  opacity: 1;
+  width: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+  .faq-section {
+    padding: 60px 387px 156px;
+  }
+  .faq {
+    width: 666px;
+  }
+  .faq-acc {
+    gap: 24px;
+  }
+  .faq-acc-el-trigger {
+    padding: 24px;
+    width: 666px;
+    height: 94px;
+    font-size: 24px;
+  }
+  .faq-acc-el.is-active .faq-acc-el-descr-frame {
+    font-size: 24px;
+    padding: 24px;
   }
 }

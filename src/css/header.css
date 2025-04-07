@@ -1,3 +1,7 @@
+.header {
+  backdrop-filter: blur(60px);
+  background: rgba(255, 255, 255, 0.2);
+}
 .header-container {
   display: flex;
   width: 336px;
