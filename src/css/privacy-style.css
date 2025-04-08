@@ -1,0 +1,58 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./footer.css');
+@import url('./header.css');
+.policy-container {
+  backdrop-filter: blur(60px);
+  background: rgba(255, 255, 255, 0.2);
+  padding: 40px 20px 72px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+}
+.first-text {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+}
+.policy-title {
+  margin: 16px 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+}
+.list-disk {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.policy-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.privacy-list-one {
+  text-decoration: underline;
+  color: #00f;
+}
+@media screen and (min-width: 1440px) {
+  .policy-container {
+    padding: 80px 108px 128px;
+    font-size: 24px;
+  }
+  .policy-title {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #000;
+  }
+  .policy-info-list {
+    gap: 24px;
+  }
+}

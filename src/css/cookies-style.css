@@ -1,0 +1,10 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./footer.css');
+@import url('./header.css');
+
+.cookies-container-first {
+  backdrop-filter: blur(60px);
+  background: rgba(255, 255, 255, 0.2);
+  padding: 40px 20px 72px;
+}
