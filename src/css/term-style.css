@@ -4,7 +4,7 @@
 @import url('./header.css');
 
 .terms-container {
-  padding: 40px 20px 72px;
+  padding: 166px 20px 72px;
   backdrop-filter: blur(60px);
   background: rgba(255, 255, 255, 0.2);
   font-family: 'Exo 2', sans-serif;

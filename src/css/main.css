@@ -69,14 +69,14 @@
     padding: 8px 64px;
     margin: 0 507px;
   }
-  .picture-container {
+  /* .picture-container {
     display: flex;
     position: absolute;
     top: 30px;
     left: 70px;
     z-index: 30;
     margin-top: 0px;
-  }
+  } */
   .hero-img {
     margin-top: 125px;
     width: 268px;

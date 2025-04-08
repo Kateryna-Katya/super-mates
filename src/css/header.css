@@ -1,8 +1,8 @@
 .header {
   position: fixed;
   top: 0px;
-  left: 42%;
-  transform: translateX(-51%);
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 999;
 }
 .header-container {
@@ -43,8 +43,8 @@
   backdrop-filter: blur(40.20000076293945px);
   background: rgba(157, 219, 34, 0.49);
   z-index: 1000;
-  position: absolute;
-  top: 60px;
+  position: fixed;
+  top: 50px;
   left: 50%;
   transform: translateX(-50%);
   padding: 146px 101px 213px 101px;
@@ -98,8 +98,7 @@
   .header {
     backdrop-filter: none;
     background: #9ddb22;
-    left: 49%;
-    transform: translateX(-62%);
+    width: 100%;
   }
   .menu-button {
     display: none;
