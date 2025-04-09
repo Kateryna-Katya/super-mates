@@ -7,4 +7,83 @@
   backdrop-filter: blur(60px);
   background: rgba(255, 255, 255, 0.2);
   padding: 166px 20px 72px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+}
+.block-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 36px;
+}
+.cookies-subtitle {
+  font-family: 'Gluten', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  color: #1a1ab8;
+  margin-bottom: 48px;
+}
+
+.title-cookies {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+  margin-bottom: 16px;
+}
+.definitions-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.span-cookies {
+  font-weight: 700;
+}
+.span-link {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #00f;
+}
+.text-use {
+  margin: 16px 0;
+}
+.choise-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.list-with-disc {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.break-url {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #00f;
+  word-break: break-all;
+}
+.span-info {
+  text-decoration: underline;
+}
+@media screen and (min-width: 1440px) {
+  .cookies-container-first {
+    padding: 166px 108px 159px;
+    font-size: 24px;
+  }
+  .block-list {
+    margin-bottom: 48px;
+  }
+  .cookies-subtitle {
+    font-size: 36px;
+    line-height: 0.61111;
+  }
+  .title-cookies {
+    font-weight: 700;
+    font-size: 24px;
+  }
 }

@@ -1,0 +1,121 @@
+.cookie-popup {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #9ddb22;
+  color: #000;
+  padding: 40px 28px;
+  z-index: 1200;
+  width: 375px;
+  height: 319px;
+
+  display: none;
+  flex-direction: column;
+  gap: 24px;
+}
+.cookies-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 0.91667;
+  color: #000;
+  margin-bottom: 0;
+}
+
+.cookie-class {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000;
+}
+
+.cookie-buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.btn-accept {
+  box-shadow: 3px 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  border-radius: 8px;
+  padding: 14px 12px;
+  width: 319px;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  line-height: 0.91667;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+}
+
+.btn-decline {
+  box-shadow: 0 1px 3px 0 #004fb6;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 15px 12px;
+  width: 319px;
+  height: 45px;
+  background: transparent;
+  font-family: 'Lato', sans-serif;
+  line-height: 0.91667;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+}
+@media screen and (min-width: 1440px) {
+  .cookie-popup {
+    padding: 40px 108px;
+    width: 1440px;
+    height: 284px;
+    margin: 0 auto;
+    bottom: 30px;
+    left: 40%;
+    transform: translateX(-51%);
+  }
+
+  .cookies-title {
+    font-size: 36px;
+    line-height: 0.61111;
+  }
+
+  .cookie-class {
+    font-size: 24px;
+    width: 1200px;
+  }
+
+  .cookie-buttons {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+  }
+
+  .btn-accept {
+    width: 269px;
+    height: 55px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    line-height: 0.91667;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+  }
+
+  .btn-decline {
+    width: 269px;
+    height: 55px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+  }
+}

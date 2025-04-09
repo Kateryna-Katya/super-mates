@@ -42,7 +42,10 @@
 }
 @media screen and (min-width: 1440px) {
   .policy-container {
-    padding: 80px 108px 128px;
+    padding: 166px 108px 128px;
+    font-size: 24px;
+  }
+  .first-text {
     font-size: 24px;
   }
   .policy-title {
