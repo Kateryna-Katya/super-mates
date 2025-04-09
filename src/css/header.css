@@ -13,7 +13,7 @@
 
   width: 336px;
   height: 58px;
-  margin-top: 37px;
+  margin-top: 17px;
 }
 .game-img {
   border-radius: 13px;
@@ -103,9 +103,7 @@
     background: #9ddb22;
     width: 100%;
   }
-  .container-header {
-    padding: 0 108px;
-  }
+
   .menu-button {
     display: none;
   }
