@@ -1,6 +1,3 @@
-.footer {
-  padding: 24px 53px;
-}
 .footer-navigation {
   display: flex;
   flex-direction: column;
@@ -16,14 +13,11 @@
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 14px;
-  text-align: center;
+  text-align: start;
   color: #000;
   margin-top: 30px;
 }
 @media screen and (min-width: 1440px) {
-  .footer {
-    padding: 25px 386px;
-  }
   .footer-navigation {
     display: flex;
     flex-direction: row;
@@ -41,5 +35,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0 auto;
   }
 }

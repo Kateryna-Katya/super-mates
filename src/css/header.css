@@ -5,9 +5,12 @@
   transform: translateX(-50%);
   z-index: 999;
 }
+.container-header {
+  padding: 0 20px;
+}
 .header-container {
   display: flex;
-  padding: 0 20px;
+
   width: 336px;
   height: 58px;
   margin-top: 37px;
@@ -99,6 +102,9 @@
     backdrop-filter: none;
     background: #9ddb22;
     width: 100%;
+  }
+  .container-header {
+    padding: 0 108px;
   }
   .menu-button {
     display: none;

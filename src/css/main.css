@@ -1,8 +1,8 @@
 .hero-section {
-  padding: 130px 20px 96px;
   backdrop-filter: blur(60px);
   background: rgba(255, 255, 255, 0.2);
   position: relative;
+  padding: 40px 0 0 0;
 }
 .hero-title {
   text-indent: -9999px;
@@ -47,7 +47,14 @@
 
 @media screen and (min-width: 1440px) {
   .hero-section {
-    padding: 150px 77px 133px;
+    padding: 0;
+    height: auto;
+  }
+  .hero-main-container {
+    position: absolute;
+    top: 233px;
+    left: 52%;
+    transform: translateX(-50%);
   }
 
   .hero-text-img {
@@ -66,27 +73,13 @@
     padding: 8px 64px;
     margin: 0 507px;
   }
-  .picture-container {
-    display: flex;
-    position: absolute;
-    top: 30px;
-    left: 70px;
-    z-index: 30;
-    margin-top: 0px;
-  }
-  .hero-img {
-    margin-top: 125px;
-    width: 268px;
-    height: 630px;
-  }
+
   .boy-img {
-    position: absolute;
-    left: 1020px;
+    margin: 0 auto 0 600px;
   }
 }
 /* Game Description */
 .game-description-section {
-  padding: 40px 20px;
   backdrop-filter: blur(60px);
   background: rgba(255, 255, 255, 0.2);
 }
@@ -96,12 +89,8 @@
   font-size: 16px;
   color: #000;
   max-width: 336px;
-  margin: 0 auto;
 }
 @media screen and (min-width: 1440px) {
-  .game-description-section {
-    padding: 60 108px;
-  }
   .description-text {
     font-size: 24px;
     max-width: 1200px;
@@ -109,7 +98,6 @@
 }
 /* Key Features */
 .features-section {
-  padding: 40px 20px;
   backdrop-filter: blur(60px);
   background: rgba(255, 255, 255, 0.2);
 }
@@ -127,7 +115,7 @@
   height: 75px;
 }
 .key-container {
-  padding: 20px 24px;
+  padding: 40px 20px;
   width: 240px;
   height: auto;
   font-family: 'Lato', sans-serif;
@@ -195,9 +183,6 @@
   top: 60px;
 }
 @media screen and (min-width: 1440px) {
-  .features-section {
-    padding: 60px 108px;
-  }
   .key-list {
     gap: 60px;
     margin-top: 30px auto 0;
@@ -247,7 +232,6 @@
 }
 /* User Reviews */
 .reviews-section {
-  padding: 40px 20px;
   backdrop-filter: blur(60px);
   background: rgba(255, 255, 255, 0.2);
 }
@@ -289,9 +273,6 @@
   font-size: 20px;
 }
 @media screen and (min-width: 1440px) {
-  .reviews-section {
-    padding: 60px 108px;
-  }
   .reviews {
     width: 1224px;
   }
@@ -315,7 +296,6 @@
 }
 /* How to Play */
 .play-section {
-  padding: 40px 20px;
   backdrop-filter: blur(60px);
   background: rgba(255, 255, 255, 0.2);
 }
@@ -350,10 +330,10 @@
 .play-span {
   font-weight: 700;
 }
+.play-container {
+  margin: 0 auto;
+}
 @media screen and (min-width: 1440px) {
-  .play-section {
-    padding: 60px 322px;
-  }
   .play-container {
     width: 794px;
   }
@@ -378,7 +358,6 @@
 }
 /* Gallery */
 .gallery-section {
-  padding: 40px 0px 40px 20px;
   backdrop-filter: blur(60px);
   background: rgba(255, 255, 255, 0.2);
 }
@@ -399,13 +378,10 @@
 .mob-img-items {
   border-radius: 24px;
 }
+.gallery-container {
+  margin: 0 auto;
+}
 @media screen and (min-width: 1440px) {
-  .gallery-section {
-    padding: 60px 0px 60px 108px;
-  }
-  .subtitle-gallery {
-    margin-right: 200px;
-  }
   .galley-desk-img {
     border-radius: 24px;
   }
@@ -425,7 +401,6 @@
 .faq-section {
   backdrop-filter: blur(60px);
   background: rgba(255, 255, 255, 0.2);
-  padding: 40px 20px 95px;
 }
 .faq-acc {
   display: flex;
@@ -514,11 +489,11 @@
   opacity: 1;
   width: 100%;
 }
+.faq {
+  margin: 0 auto;
+}
 
 @media screen and (min-width: 1440px) {
-  .faq-section {
-    padding: 60px 387px 156px;
-  }
   .faq {
     width: 666px;
   }
