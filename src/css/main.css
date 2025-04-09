@@ -49,9 +49,6 @@
   .hero-section {
     padding: 150px 77px 133px;
   }
-  .hero-container {
-    width: 1224px;
-  }
 
   .hero-text-img {
     width: 605px;
@@ -75,10 +72,13 @@
     top: 30px;
     left: 70px;
     z-index: 30;
-    margin-top: 125px;
-    padding: 0px 30px;
+    margin-top: 0px;
   }
-
+  .hero-img {
+    margin-top: 125px;
+    width: 268px;
+    height: 630px;
+  }
   .boy-img {
     position: absolute;
     left: 1020px;
