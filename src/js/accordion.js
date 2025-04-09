@@ -2,7 +2,7 @@ import Accordion from 'accordion-js';
 import 'accordion-js/dist/accordion.min.css';
 
 const accordion = new Accordion('.faq-acc', {
-    duration: 500,
+    duration: 100,
     showMultiple: true,
     collapse: true,
     elementClass: 'faq-acc-el',

@@ -4,10 +4,13 @@
 @import url('./header.css');
 @import url('./container.css');
 
+.container-header {
+  padding: 0 20px;
+}
 .policy-container {
   backdrop-filter: blur(60px);
   background: rgba(255, 255, 255, 0.2);
-  padding: 166px 0px 72px;
+  padding: 136px 0px 72px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 16px;

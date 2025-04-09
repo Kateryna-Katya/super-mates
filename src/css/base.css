@@ -13,13 +13,17 @@ h2 {
   color: #1a1ab8;
   margin-bottom: 32px;
 }
+.background {
+  backdrop-filter: blur(60px);
+  background: rgba(255, 255, 255, 0.2);
+}
 .blur-circle {
   position: absolute;
   border-radius: 50%;
   background: radial-gradient(
     circle,
-    rgba(255, 255, 255, 0.9) 0%,
-    rgba(255, 255, 255, 0.6) 35%,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(255, 255, 255, 0.5) 35%,
     rgba(255, 255, 255, 0.3) 60%,
     rgba(255, 255, 255, 0) 100%
   );
@@ -32,15 +36,15 @@ h2 {
   overflow: hidden;
 }
 .circle1 {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   top: 3%;
   left: 20%;
   overflow: hidden;
 }
 .circle2 {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   bottom: 10%;
   left: 5%;
   overflow: hidden;
@@ -67,8 +71,8 @@ h2 {
   overflow: hidden;
 }
 .circle6 {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   top: 34%;
   right: 20%;
   overflow: hidden;

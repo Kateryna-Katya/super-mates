@@ -75,10 +75,10 @@
     padding: 40px 108px;
     width: 1440px;
     height: 284px;
-    margin: 0 auto;
+
     bottom: 30px;
-    left: 40%;
-    transform: translateX(-51%);
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .cookies-title {

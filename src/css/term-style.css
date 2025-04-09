@@ -4,8 +4,12 @@
 @import url('./header.css');
 @import url('./container.css');
 
+.container-header {
+  padding: 0 20px;
+}
+
 .terms-container {
-  padding: 166px 0 72px;
+  padding: 136px 0 72px;
   backdrop-filter: blur(60px);
   background: rgba(255, 255, 255, 0.2);
   font-family: 'Exo 2', sans-serif;

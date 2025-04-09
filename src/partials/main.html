@@ -21,8 +21,7 @@
                         loading="lazy" />
                 </picture>
                 <p class="hero-text">Play Together, Win Together! Your Ultimate Co-op Adventure!</p>
-                <a href="https://play.google.com/store/apps/details?id=com.supermates.android&hl=en&gl=us"
-                    target="_blank" class="btn-google">
+                <a href="#" class="btn-google">
                     <img class="google-img" src="/img/hero/Playstore.png" alt="Google" />
                     <img class="text-img" src="/img/hero/Content.png" alt="Google play" /></a>
             </div>
@@ -302,49 +301,108 @@
         <div class="blur-circle circle4"></div>
         <div class="gallery-container">
             <h2 class="subtitle subtitle-gallery">Gallery</h2>
-            <ul class="mob-img-list">
-                <li class="mob-img-items">
-                    <img class="galley-mob-img" src="/img/gallery/gallery.jpg" srcset="
-                                  /img/gallery/gallery.jpg,
-                                  /img/gallery/gallery@2x.jpg
-                                        " alt="Play screen" loading="lazy" />
-                </li>
-                <li class="mob-img-items">
-                    <img class="galley-mob-img img-items-last" src="/img/gallery/gallery-mob.jpg" srcset="
-                                      /img/gallery/gallery-mob.jpg,
-                                      /img/gallery/gallery-mob@2x.jpg
-                                            " alt="Play screen" loading="lazy" />
-                </li>
-            </ul>
-            <ul class="desk-img-list">
-                <li class="desk-img-items">
-                    <img class="galley-desk-img" src="/img/gallery/gallery-one.jpg" srcset="
-                                      /img/gallery/gallery-one.jpg,
-                                      /img/gallery/gallery-one@2x.jpg
-                                            " alt="Play screen" loading="lazy" />
-                </li>
-                <li class="desk-img-items">
-                    <img class="galley-desk-img" src="/img/gallery/gallery-two.jpg" srcset="
-                                              /img/gallery/gallery-two.jpg,
-                                              /img/gallery/gallery-two@2x.jpg
-                                                    " alt="Play screen" loading="lazy" />
-                </li>
-                <li class="desk-img-items">
-                    <img class="galley-desk-img" src="/img/gallery/gallery-three.jpg" srcset="
-                                             /img/gallery/gallery-three.jpg,
-                                            /img/gallery/gallery-three@2x.jpg
-                                             " alt="Play screen" loading="lazy" />
-                </li>
-                <li class="desk-img-items">
-                    <img class="galley-desk-img img-desk-last" src="/img/gallery/gallery-four.webp" srcset="
-                                            /img/gallery/gallery-four.jpg,
-                                            /img/gallery/gallery-four@2x.jpg
-                                         " alt="Play screen" loading="lazy" />
-                </li>
+            <div class="swiper gallery-swiper">
+                <ul class="swiper-wrapper gallery-swiper-wrapper">
+                    <li class="swiper-slide gallery-swiper-slide">
+                        <picture class="picture">
+                            <source srcset="
+                                                /img/gallery/gallery-one.jpg    1x,
+                                                /img/gallery/gallery-one@2x.jpg 2x
+                                              " media="(min-width: 1440px)" />
+                            <source srcset="
+                                                /img/gallery/gallery.jpg.jpg   1x,
+                                                /img/gallery/gallery@2x.jpg 2x
+                                              " media="(max-width: 1439px)" />
+                            <img class="gallery-img" src="/img/gallery/gallery.jpg" alt="Game" loading="lazy" />
+                        </picture>
+                    </li>
+                    <li class="swiper-slide gallery-swiper-slide">
+                        <picture class="picture">
+                            <source srcset="
+                                                /img/gallery/gallery-two.jpg    1x,
+                                                /img/gallery/gallery-two@2x.jpg 2x
+                                                " media="(min-width: 1440px)" />
+                            <source srcset="
+                                                 /img/gallery/gallery-mob-two.jpg  1x,
+                                                /img/gallery/gallery-mob-two@2x.jpg 2x
+                                                " media="(max-width: 1439px)" />
+                            <img class="gallery-img" src="/img/gallery/gallery-mob-two.jpg" alt="Game" loading="lazy" />
+                        </picture>
+                    </li>
+                    <li class="swiper-slide gallery-swiper-slide">
+                        <picture class="picture">
+                            <source srcset="
+                                            /img/gallery/gallery-three.jpg    1x,
+                                            /img/gallery/gallery-three@2x.jpg 2x
+                                            " media="(min-width: 1440px)" />
+                            <source srcset="
+                                             /img/gallery/gallery-mob-three.jpg  1x,
+                                            /img/gallery/gallery-mob-three@2x.jpg 2x
+                                            " media="(max-width: 1439px)" />
+                            <img class="gallery-img" src="/img/gallery/gallery-mob-three.jpg" alt="Game"
+                                loading="lazy" />
+                        </picture>
+                    </li>
+                    <li class="swiper-slide gallery-swiper-slide">
+                        <picture class="picture">
+                            <source srcset="
+                                            /img/gallery/gallery-four.jpg    1x,
+                                            /img/gallery/gallery-four@2x.jpg 2x
+                                            " media="(min-width: 1440px)" />
+                            <source srcset="
+                                            /img/gallery/gallery-mob-four.jpg  1x,
+                                             /img/gallery/gallery-mob-four@2x.jpg 2x
+                                             " media="(max-width: 1439px)" />
+                            <img class="gallery-img" src="/img/gallery/gallery-mob-four.jpg" alt="Game"
+                                loading="lazy" />
+                        </picture>
+                    </li>
+                    <li class="swiper-slide gallery-swiper-slide">
+                        <picture class="picture">
+                            <source srcset="
+                                             /img/gallery/gallery-five.jpg    1x,
+                                             /img/gallery/gallery-five@2x.jpg 2x
+                                             " media="(min-width: 1440px)" />
+                            <source srcset="
+                                            /img/gallery/gallery-mob-five.jpg  1x,
+                                             /img/gallery/gallery-mob-five@2x.jpg 2x
+                                             " media="(max-width: 1439px)" />
+                            <img class="gallery-img" src="/img/gallery/gallery-mob-five.jpg" alt="Game"
+                                loading="lazy" />
+                        </picture>
+                    </li>
+                    <li class="swiper-slide gallery-swiper-slide">
+                        <picture class="picture">
+                            <source srcset="
+                                            /img/gallery/gallery-six.jpg    1x,
+                                            /img/gallery/gallery-six@2x.jpg 2x
+                                            " media="(min-width: 1440px)" />
+                            <source srcset="
+                                            /img/gallery/gallery-mob-six.jpg  1x,
+                                            /img/gallery/gallery-mob-six@2x.jpg 2x
+                                            " media="(max-width: 1439px)" />
+                            <img class="gallery-img" src="/img/gallery/gallery-mob-six.jpg" alt="Game" loading="lazy" />
+                        </picture>
+                    </li>
+                    <li class="swiper-slide gallery-swiper-slide">
+                        <picture class="picture">
+                            <source srcset="
+                                                /img/gallery/gallery-seven.jpg    1x,
+                                              /img/gallery/gallery-seven@2x.jpg 2x
+                                             " media="(min-width: 1440px)" />
+                            <source srcset="
+                                                /img/gallery/gallery-mob-seven.jpg  1x,
+                                                 /img/gallery/gallery-mob-seven@2x.jpg 2x
+                                                 " media="(max-width: 1439px)" />
+                            <img class="gallery-img" src="/img/gallery/gallery-mob-seven.jpg" alt="Game"
+                                loading="lazy" />
+                        </picture>
+                    </li>
 
-            </ul>
+                </ul>
+
+            </div>
         </div>
-    </div>
 </section>
 <!-- FAQ -->
 <section class="faq-section" id="FAQ">
