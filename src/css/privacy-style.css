@@ -47,7 +47,7 @@
 }
 @media screen and (min-width: 1440px) {
   .policy-container {
-    padding: 166px 108px 128px;
+    padding: 166px 0 40px;
     font-size: 24px;
   }
   .first-text {

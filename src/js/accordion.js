@@ -2,9 +2,9 @@ import Accordion from 'accordion-js';
 import 'accordion-js/dist/accordion.min.css';
 
 const accordion = new Accordion('.faq-acc', {
-    duration: 100,
+    duration: 500,
     showMultiple: true,
-    collapse: true,
+
     elementClass: 'faq-acc-el',
     triggerClass: 'faq-acc-el-trigger',
     panelClass: 'faq-acc-el-descr-frame',
